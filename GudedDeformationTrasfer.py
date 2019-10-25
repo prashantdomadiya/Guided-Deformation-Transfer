@@ -1,6 +1,6 @@
 
 bl_info = {
-    "name": "A Generalize Deformation Transfer using PI",
+    "name": "Guided Deformation Transfer",
     "author": "Prashant Domadiya",
     "version": (1, 3),
     "blender": (2, 71, 0),
