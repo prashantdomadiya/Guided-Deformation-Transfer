@@ -18,7 +18,7 @@ Numpy, Scipy, scikit-sparse
 6. Activate the Add-On.
 
 # How to use Deformation Transfer Toolbox
-please see the video (link)
+please see the video at 
 
 # Any Query contact me on
 pmdomadiya@gmail.com
