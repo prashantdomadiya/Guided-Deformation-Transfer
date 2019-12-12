@@ -7,14 +7,14 @@ I tested Add-On on Ubuntu. It may work on Windows (with few changes in code).
 # Dependencies
 Numpy, Scipy, scikit-sparse
 
-# Blender set up (if unable to install dierectly)
+# Blender set up through Anaconda (if unable to install dierectly on system)
 1. Install Anaconda
 2. Create an python environment name "Blender" (version of the python should be the same as Blender python)
 3. install numpy, scipy and sciki-sparse
 4. uninstall numpy and scipy from blender (otherwise you will face comaptibility issue)
 6. Anaconda folder-> envs -> Blender -> lib -> PythonX.Y -> site-packages
-5. replace global variable "path=Anaconda3/Blender269/lin/Python3.4/site-packages/" by 
-   "path=Your_Anaconda_folder_name/Blender/lin/PythonX.Y/site-packages/"
+5. replace global variable "path=Anaconda3/Blender269/lib/Python3.4/site-packages/" by 
+   "path=Your_Anaconda_folder_name/Blender/lib/PythonX.Y/site-packages/"
 6. Activate the Add-On.
 
 # How to use Deformation Transfer Toolbox
