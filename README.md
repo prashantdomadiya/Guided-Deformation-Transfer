@@ -2,7 +2,7 @@
 Deformation Transfer method for various geometric models
 
 # OS
-I tested Add-On on Ubuntu 14.04, I may work on Windows (with few changes in code).
+I tested Add-On on Ubuntu. It may work on Windows (with few changes in code).
 
 # Dependencies
 Numpy, Scipy, scikit-sparse
