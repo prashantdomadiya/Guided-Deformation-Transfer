@@ -2,8 +2,8 @@
 bl_info = {
     "name": "Guided Deformation Transfer",
     "author": "Prashant Domadiya",
-    "version": (1, 3),
-    "blender": (2, 71, 0),
+    "version": (1, 1),
+    "blender": (2, 81, 0),
     "location": "Python Console > Console > Run Script",
     "description": "Transfer Deformation From Sorce Temporal Sequence to Target Temporal Sequence",
     "warning": "",
@@ -12,7 +12,7 @@ bl_info = {
     "category": "Development"}
 
 import sys
-sys.path.append('/home/prashant/anaconda3/envs/Blender269/lib/python3.4/site-packages')
+sys.path.append('/home/student/anaconda3/envs/Blender281/lib/python3.7/site-packages')
 
 import bpy
 import numpy as np
@@ -408,7 +408,7 @@ def ReadTxt(Name):
 class DTToolsPanel(bpy.types.Panel):
     bl_label = "DT Tools Panel"
     bl_space_type = "VIEW_3D"
-    bl_region_type = "TOOLS"
+    bl_region_type = "UI"
  
     def draw(self, context):
         self.layout.operator("get.seq",text='Source Seq').seqType="source"
