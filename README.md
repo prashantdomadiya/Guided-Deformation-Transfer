@@ -16,6 +16,9 @@ Numpy, Scipy, scikit-sparse
 5. replace global variable "path=Anaconda3/Blender269/lib/Python3.4/site-packages/" by 
    "path=Your_Anaconda_folder_name/Blender/lib/PythonX.Y/site-packages/"
 6. Activate the Add-On.
+   The toolbox is visible in blender UI region.
+   
+    
 
 # How to use Deformation Transfer Toolbox
 please see the video at https://youtu.be/1kJnbTPwzuI
