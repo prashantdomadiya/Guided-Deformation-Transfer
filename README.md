@@ -4,6 +4,9 @@ Deformation Transfer method for various geometric models
 # OS
 I tested Add-On on Ubuntu. It may work on Windows (with few changes in code).
 
+# Blender Version
+  2.81 or more
+
 # Dependencies
 Numpy, Scipy, scikit-sparse
 
