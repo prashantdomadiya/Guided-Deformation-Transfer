@@ -426,7 +426,7 @@ class DTToolsPanel(bpy.types.Panel):
 class GetSequence(bpy.types.Operator):
     bl_idname = "get.seq"
     bl_label = "Target Sequence"
-    seqType = bpy.props.StringProperty()
+    seqType : bpy.props.StringProperty()
  
     def execute(self, context):
         path=bpy.utils.resource_path('USER') # '/home/student/Dropbox/My_PC/poisson_mesh_temporal/Code/Blender/'#
@@ -461,7 +461,7 @@ class GetSequence(bpy.types.Operator):
 class DeformationTransferTools(bpy.types.Operator):
     bl_idname = "dt.tools"
     bl_label = "DT Tools"
-    seqType = bpy.props.StringProperty()
+    seqType : bpy.props.StringProperty()
     def execute(self,context):
         path=bpy.utils.resource_path('USER') #'/home/student/Dropbox/My_PC/poisson_mesh_temporal/Code/Blender/'#
         
