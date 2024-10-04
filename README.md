@@ -16,8 +16,8 @@ Numpy, Scipy, scikit-sparse
 3. install numpy, scipy and sciki-sparse
 4. uninstall numpy and scipy from blender (otherwise you will face comaptibility issue)
 6. Anaconda folder-> envs -> Blender281 -> lib -> PythonX.Y -> site-packages
-5. replace global variable "path=Anaconda3/Blender281/lib/Python3.7/site-packages/" by 
-   "path=Your_Anaconda_folder_name/Blender281/lib/PythonX.Y/site-packages/"
+5. replace global variable "LibPath=Anaconda3/Blender281/lib/Python3.7/site-packages/" by 
+   "LibPath=Your_Anaconda_folder_name/Blender281/lib/PythonX.Y/site-packages/"
 6. Activate the Add-On.
    The toolbox is visible in blender UI region.
    
